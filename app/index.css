@@ -1,0 +1,107 @@
+#app{
+	width:100%;
+	height:100%;
+}
+
+body{
+	font-family: "Dancing Script", cursive;
+	/*background:url('./assets/ScoCen.jpg');*/
+}
+
+h2{
+	font-size: 2em;
+}
+
+#game{
+	width:90%;
+	margin:0 auto;
+}
+
+canvas{
+	
+}
+
+#wrapper{
+	width:100%;
+	height:100%;
+}
+
+#canvasWrapper{
+	width:70%;
+	float:left;
+	border:1px solid rgb(34,200,251);
+}
+
+#scoreboard{
+	width:18%;
+	float:left;
+	color:pink;
+}
+
+#scoreboard div{
+	background: white;
+	color:black;
+	padding:.1em;
+	font-size:3em;
+}
+
+button{
+	background:rgb(34,200,251);
+}
+
+button:hover{
+	background:rgb(201,156,223);
+}
+
+#scoreboard button:focus{
+	outline:0;
+}
+
+#modal{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.5);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1;
+}
+
+#modal h2{
+	margin:0;
+}
+
+#modal div	{
+	position:absolute;
+	top:50%;
+	transform:translate(-50%,-50%);
+	left:50%;
+	background:white;
+	width:40%;
+	text-align: center;
+	border: 3px solid rgb(34,200,251);
+	border-radius:5px;
+}
+
+#modal div div{
+	position:static;
+	background:black;
+	color:pink;
+	padding:.1em;
+	font-size: 1.5em;
+	display:inline-block;
+	margin:1em auto 0 auto;
+	width:50%;
+	border:none;
+	transform:none;
+}
+
+#modal button{
+	margin-top:4em;
+}
+
+#modal .closeButton{
+	margin:1px;
+	float:right;
+	background:#DDD;
+}
